@@ -27,8 +27,4 @@ function search()
     {
         text.innerText.includes(filter.value).style.Color = "yellow";
     }
-
-    str.forEach(element => {
-        
-    });
 }
