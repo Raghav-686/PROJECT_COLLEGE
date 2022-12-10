@@ -25,6 +25,6 @@ function search()
 
     if(text.innerText.toLowerCase().includes(filter.value.toLowerCase()))
     {
-        text.innerText.includes(filter.value).style.Color = "yellow";
+        console.log("rwhgwr");
     }
 }
