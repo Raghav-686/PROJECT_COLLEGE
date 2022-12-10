@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container-img">
+        <img src="Mainimg.png.jpg" alt="">
+        <span>Javascript  Playground</span>
+    </div>
+
+    <div class="container">
+        <div class="left-container">
+            <div class="upper-left">
+                <h2><i id="heading">Book Title</i></h2>
+            </div>
+            <div class="lower-left">
+                <p id="select-a-book-on-the-right">select a book on the right</p>
+            </div>
+        </div>
+        <div class="second-container">
+            <div class="search">
+                <div class="search-cont-upper">
+                    <h2>Search</h2>
+                </div>
+                <div class="search-cont-lower">
+                    <input type="text" placeholder="Search For..." id="filter">
+                    <input type="button" style="cursor: pointer;" value="Search" onclick="search()">
+                </div>
+                <div class="search-count">
+
+                </div>
+            </div>
+            <div class="select-book">
+                <div class="upper-select-book">
+                    <h2>Select a Book</h2>
+                </div>
+                <div class="lower-select-book">
+                    <p onclick="searchData('Alice In WonderLand')">Alice In WonderLand</p>
+                    <p onclick="searchData('Lord Of The Rings')">Lord Of The Rings</p>
+                    <p onclick="searchData('Dr Jekyll and Mr. Hyde')">Dr Jekyll and Mr. Hyde</p>
+                </div>
+            </div>
+            <div class="most-used-word">
+
+            </div>
+            <div class="least-used-word">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+    <a href="index1.html" id="next">NEXT</a>
+</body>
+</html>
